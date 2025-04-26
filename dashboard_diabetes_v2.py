@@ -108,6 +108,7 @@ if uploaded_file is not None:
         for k, v in insights.items():
             st.success(f"{k}\n\n{v}")
 
+
 {v}")
 
     with tab5:
