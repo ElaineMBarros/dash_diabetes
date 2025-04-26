@@ -109,8 +109,6 @@ if uploaded_file is not None:
             st.success(f"{k}\n\n{v}")
 
 
-{v}")
-
     with tab5:
         st.subheader("Importância das Variáveis")
         fig_imp, ax_imp = plt.subplots(figsize=(8, 6))
