@@ -106,7 +106,7 @@ if uploaded_file is not None:
             "🔹 Histórico familiar influencia.": "A função de pedigree para diabetes também impacta a chance de diagnóstico, mas com menor peso."
         }
         for k, v in insights.items():
-            st.success(f"{k}
+            st.success(f"{k}\n\n{v}")
 
 {v}")
 
